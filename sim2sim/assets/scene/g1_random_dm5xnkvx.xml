@@ -1,0 +1,52 @@
+<mujoco model="g1_29dof stairs scene">
+  
+  <include file="debug_axis.xml" />
+  
+  <include file="g1_29dof_dex1_hands.xml" />
+
+  <statistic center="0 0 0.5" extent="2.0" />
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0" />
+    <rgba haze="0.15 0.25 0.35 1" />
+    <global azimuth="-130" elevation="-20" />
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072" />
+    <texture type="2d" name="stairs_groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3" markrgb="0.8 0.8 0.8" width="300" height="300" />
+    <material name="stairs_groundplane" texture="stairs_groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2" />
+    <material name="stair_mat" rgba="0.55 0.55 0.6 1" />
+  </asset>
+
+  <default>
+    <geom friction="1.0" />
+  </default>
+
+  <worldbody>
+    <light pos="0 0 1.5" dir="0 0 -1" directional="true" />
+    <geom name="stairs_floor" size="0 0 0.05" type="plane" material="stairs_groundplane" />
+
+    
+    <geom name="step_up_1" type="box" size="0.158313 1.0 0.077952" pos="1.158313 0 0.077952" material="stair_mat" />
+    <geom name="step_up_2" type="box" size="0.307668 1.0 0.233766" pos="1.624295 0 0.233766" material="stair_mat" />
+    <geom name="step_up_3" type="box" size="0.290075 1.0 0.386990" pos="2.222038 0 0.386990" material="stair_mat" />
+    <geom name="step_up_4" type="box" size="0.188431 1.0 0.533488" pos="2.700543 0 0.533488" material="stair_mat" />
+    <geom name="step_up_5" type="box" size="0.205906 1.0 0.701420" pos="3.094879 0 0.701420" material="stair_mat" />
+    <geom name="step_up_6" type="box" size="0.222080 1.0 0.876298" pos="3.522864 0 0.876298" material="stair_mat" />
+    <geom name="step_up_7" type="box" size="0.342795 1.0 1.034083" pos="4.087739 0 1.034083" material="stair_mat" />
+    <geom name="step_up_8" type="box" size="0.224495 1.0 1.188356" pos="4.655030 0 1.188356" material="stair_mat" />
+
+    
+    <geom name="platform_top" type="box" size="0.600000 1.0 0.631464" pos="5.479525 0 0.631464" material="stair_mat" />
+
+    
+    <geom name="step_dn_1" type="box" size="0.213087 1.0 0.565718" pos="6.292612 0 0.565718" material="stair_mat" />
+    <geom name="step_dn_2" type="box" size="0.337376 1.0 0.466592" pos="6.843076 0 0.466592" material="stair_mat" />
+    <geom name="step_dn_3" type="box" size="0.213239 1.0 0.385034" pos="7.393692 0 0.385034" material="stair_mat" />
+    <geom name="step_dn_4" type="box" size="0.246230 1.0 0.299564" pos="7.853161 0 0.299564" material="stair_mat" />
+    <geom name="step_dn_5" type="box" size="0.337664 1.0 0.248331" pos="8.437055 0 0.248331" material="stair_mat" />
+    <geom name="step_dn_6" type="box" size="0.318103 1.0 0.106057" pos="9.092821 0 0.106057" material="stair_mat" />
+    <geom name="step_dn_7" type="box" size="0.300837 1.0 -0.000000" pos="9.711762 0 -0.000000" material="stair_mat" />
+  </worldbody>
+</mujoco>

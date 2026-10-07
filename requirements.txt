@@ -1,0 +1,18 @@
+# Python deps for the deployment venv (see instinct_onboard/README.md, Mode B step 2).
+# Install into a venv created with:
+#   uv venv --python /usr/bin/python3.10 --system-site-packages .venv
+# then:
+#   uv pip install -p .venv/bin/python -r requirements.txt
+#   uv pip install -p .venv/bin/python --no-deps -e ./instinct_onboard
+numpy
+opencv-python
+pyyaml
+pyzmq
+onnxruntime-gpu    # machines without an NVIDIA GPU: replace with `onnxruntime`
+prettytable
+numpy-quaternion
+transformations
+empy==3.3.2
+transforms3d
+pybind11
+mujoco==3.8.1      # sim2sim only; version is pinned (.mjb files are version-bound)
