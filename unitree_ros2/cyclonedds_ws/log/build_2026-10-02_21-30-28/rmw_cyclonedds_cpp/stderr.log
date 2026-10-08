@@ -1,0 +1,4 @@
+[33mCMake Warning at CMakeLists.txt:46 (message):
+  Could not find Eclipse Cyclone DDS - skipping 'rmw_cyclonedds_cpp'
+
+[0m

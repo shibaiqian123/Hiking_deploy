@@ -1,0 +1,16 @@
+{
+  "package_name": "unitree_hg",
+  "non_idl_tuples": [
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/BmsCmd.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/BmsState.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/HandCmd.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/HandState.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/IMUState.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/LowCmd.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/LowState.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/MainBoardState.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/MotorCmd.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/MotorState.msg",
+    "/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg:msg/PressSensorState.msg"
+  ]
+}

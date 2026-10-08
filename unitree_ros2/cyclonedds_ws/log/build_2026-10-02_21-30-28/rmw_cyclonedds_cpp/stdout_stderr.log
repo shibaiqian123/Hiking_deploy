@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /home/robot/Hiking_deploy/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rcutils: 5.1.8 (/opt/ros/humble/share/rcutils/cmake)
+-- Found rcpputils: 2.4.6 (/opt/ros/humble/share/rcpputils/cmake)
+-- Found tracetools: 4.1.2 (/opt/ros/humble/share/tracetools/cmake)
+[33mCMake Warning at CMakeLists.txt:46 (message):
+  Could not find Eclipse Cyclone DDS - skipping 'rmw_cyclonedds_cpp'
+
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/rmw_cyclonedds_cpp
+-- Install configuration: ""
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/ament_index/resource_index/package_run_dependencies/rmw_cyclonedds_cpp
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/ament_index/resource_index/parent_prefix_path/rmw_cyclonedds_cpp
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/environment/path.sh
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/environment/path.dsv
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/local_setup.bash
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/local_setup.sh
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/local_setup.zsh
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/local_setup.dsv
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.dsv
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/ament_index/resource_index/packages/rmw_cyclonedds_cpp
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake/rmw_cyclonedds_cppConfig.cmake
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake/rmw_cyclonedds_cppConfig-version.cmake
+-- Installing: /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/package.xml

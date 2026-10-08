@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/tf_transformations/tf_transformations.egg-info
+writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt
+writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt
+writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt
+writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build
+creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build/lib
+creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build/lib/tf_transformations
+copying tf_transformations/__init__.py -> /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build/lib/tf_transformations
+running install
+running install_lib
+creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations
+copying /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build/lib/tf_transformations/__init__.py -> /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations
+byte-compiling /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/ament_index
+creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/ament_index/resource_index
+creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/ament_index/resource_index/packages
+copying resource/tf_transformations -> /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/tf_transformations
+running install_egg_info
+Copying ../../build/tf_transformations/tf_transformations.egg-info to /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations-1.1.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/install.log'

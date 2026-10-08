@@ -1,0 +1,33 @@
+[0.450s] Invoking command in '/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/tf_transformations': CONDA_PROMPT_MODIFIER=(base) PS1=(.venv) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build install --record /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/install.log --single-version-externally-managed install_data
+[0.653s] running egg_info
+[0.654s] creating ../../build/tf_transformations/tf_transformations.egg-info
+[0.654s] writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO
+[0.654s] writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt
+[0.654s] writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt
+[0.654s] writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt
+[0.655s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[0.656s] reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[0.657s] adding license file 'LICENSE'
+[0.657s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[0.657s] running build
+[0.657s] running build_py
+[0.657s] creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build
+[0.657s] creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build/lib
+[0.657s] creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build/lib/tf_transformations
+[0.657s] copying tf_transformations/__init__.py -> /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build/lib/tf_transformations
+[0.658s] running install
+[0.658s] running install_lib
+[0.658s] creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations
+[0.658s] copying /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build/lib/tf_transformations/__init__.py -> /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations
+[0.659s] byte-compiling /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations/__init__.py to __init__.cpython-310.pyc
+[0.662s] running install_data
+[0.663s] creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/ament_index
+[0.663s] creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/ament_index/resource_index
+[0.663s] creating /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/ament_index/resource_index/packages
+[0.663s] copying resource/tf_transformations -> /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/ament_index/resource_index/packages
+[0.663s] copying package.xml -> /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/share/tf_transformations
+[0.663s] running install_egg_info
+[0.664s] Copying ../../build/tf_transformations/tf_transformations.egg-info to /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages/tf_transformations-1.1.1-py3.10.egg-info
+[0.664s] running install_scripts
+[0.674s] writing list of installed files to '/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/install.log'
+[0.689s] Invoked command in '/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/src/tf_transformations' returned '0': CONDA_PROMPT_MODIFIER=(base) PS1=(.venv) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/install/tf_transformations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/build install --record /home/robot/Hiking_deploy/unitree_ros2/cyclonedds_ws/build/tf_transformations/install.log --single-version-externally-managed install_data
