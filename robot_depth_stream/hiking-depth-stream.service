@@ -1,0 +1,16 @@
+[Unit]
+Description=Hiking Deploy RealSense Z16 depth stream
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=unitree
+WorkingDirectory=/home/unitree/depth_stream
+ExecStart=/usr/bin/python3 /home/unitree/depth_stream/stream_depth.py --bind tcp://0.0.0.0:5555 --width 848 --height 480 --fps 10
+Restart=on-failure
+RestartSec=2
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

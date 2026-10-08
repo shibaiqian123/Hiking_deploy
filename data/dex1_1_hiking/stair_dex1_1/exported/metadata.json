@@ -1,0 +1,94 @@
+{
+  "task_id": "Instinct-Parkour-Target-Amp-G1-Play-v0",
+  "obs_format": {
+    "policy": {
+      "base_ang_vel": [
+        24
+      ],
+      "projected_gravity": [
+        24
+      ],
+      "velocity_commands": [
+        24
+      ],
+      "joint_pos": [
+        232
+      ],
+      "joint_vel": [
+        232
+      ],
+      "actions": [
+        232
+      ],
+      "depth_image": [
+        8,
+        18,
+        32
+      ]
+    },
+    "critic": {
+      "base_lin_vel": [
+        24
+      ],
+      "base_ang_vel": [
+        24
+      ],
+      "projected_gravity": [
+        24
+      ],
+      "velocity_commands": [
+        24
+      ],
+      "joint_pos": [
+        232
+      ],
+      "joint_vel": [
+        232
+      ],
+      "actions": [
+        232
+      ],
+      "depth_image": [
+        8,
+        18,
+        32
+      ]
+    },
+    "amp_policy": {
+      "projected_gravity": [
+        30
+      ],
+      "joint_pos_rel": [
+        290
+      ],
+      "joint_vel": [
+        290
+      ],
+      "base_lin_vel": [
+        30
+      ],
+      "base_ang_vel": [
+        30
+      ]
+    },
+    "amp_reference": {
+      "projected_gravity": [
+        30
+      ],
+      "joint_pos_rel": [
+        290
+      ],
+      "joint_vel": [
+        290
+      ],
+      "base_lin_vel": [
+        30
+      ],
+      "base_ang_vel": [
+        30
+      ]
+    }
+  },
+  "num_actions": 29,
+  "num_rewards": 1
+}
