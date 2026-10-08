@@ -1,0 +1,3 @@
+/home/robot/Hiking_deploy/g1_crc/build/CMakeFiles/crc_module.dir
+/home/robot/Hiking_deploy/g1_crc/build/CMakeFiles/edit_cache.dir
+/home/robot/Hiking_deploy/g1_crc/build/CMakeFiles/rebuild_cache.dir
